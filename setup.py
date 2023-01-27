@@ -91,6 +91,6 @@ cmds = {
         }
 
 r = requests.post("https://api.telegram.org/bot" + apiToken + "/setMyCommands", json=cmds)
-#r = requests.post("https://api.telegram.org/bot1581260146:AAFLWEi-bu-Em4M7g93YIq131TGrT0C6cJg/setMyCommands", json=data)
+#r = requests.post("https://api.telegram.org/bot5425860709:AAGb-GN1bWXbZehaCQOJcwniJsWx20c5SnM/setMyCommands", json=data)
 print(r.status_code)
 print(r.text)
